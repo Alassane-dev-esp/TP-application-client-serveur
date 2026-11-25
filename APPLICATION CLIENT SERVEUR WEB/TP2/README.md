@@ -16,10 +16,9 @@ Environnement de travail
 
 * Windows 11
 * VMware Workstation
-* Ubuntu
+* Ubuntu 24
 * MariaDB
 * Python
-* HeidiSQL
 
 Contenu du dépôt
 
