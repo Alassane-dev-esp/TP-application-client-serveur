@@ -1,6 +1,7 @@
 TP1 – Modèle client-serveur
 
 Présentation
+
 Ce travail pratique porte sur le modèle client-serveur et son fonctionnement dans un environnement réseau virtualisé.
 Il consiste à mettre en place un serveur et plusieurs clients afin d’étudier les échanges de données, les connexions réseau et les services accessibles à distance.
 
@@ -25,6 +26,7 @@ Environnement de travail
 * Wireshark
 
 Architecture réseau
+
 Le TP utilise un réseau Host-only avec l’adressage suivant :
 
 * Windows : 192.168.56.1
@@ -35,6 +37,7 @@ Le serveur VM1 héberge les services MariaDB.
 
 
 Contenu du TP
+
 Le TP est organisé autour des manipulations suivantes :
 1. Mise en place du réseau et du serveur MariaDB.
 2. Configuration de l’accès réseau au serveur.
@@ -43,6 +46,7 @@ Le TP est organisé autour des manipulations suivantes :
 
 
 Fichiers
+
 Ce dossier contient le compte rendu du TP ainsi que les documents et captures d’écran associés aux manipulations. Voici les fichiers:
 * scolarite.sql : script SQL de la base de données scolarité.
 * utilisateurs_tp1.sql : script SQL de gestion des utilisateurs du TP1.
@@ -50,4 +54,5 @@ Ce dossier contient le compte rendu du TP ainsi que les documents et captures d�
 
 
 Conclusion
+
 Ce TP permet de comprendre les échanges entre un client et un serveur, la centralisation des services et des données, ainsi que les avantages et les limites de cette architecture.
